@@ -2331,6 +2331,7 @@ class LiteLLM_VerificationToken(LiteLLMPydanticObjectBase):
     team_id: Optional[str] = None
     agent_id: Optional[str] = None
     project_id: Optional[str] = None
+    project_alias: Optional[str] = None
     max_parallel_requests: Optional[int] = None
     metadata: Dict = {}
     tpm_limit: Optional[int] = None
@@ -3228,6 +3229,7 @@ class SpendLogsMetadata(TypedDict):
     user_api_key_alias: Optional[str]
     user_api_key_team_id: Optional[str]
     user_api_key_project_id: Optional[str]
+    user_api_key_project_alias: Optional[str]
     user_api_key_org_id: Optional[str]
     user_api_key_user_id: Optional[str]
     user_api_key_team_alias: Optional[str]
