@@ -2417,6 +2417,7 @@ class LiteLLM_VerificationTokenView(LiteLLM_VerificationToken):
     organization_metadata: Optional[dict] = None
 
     # Project Params
+    project_alias: Optional[str] = None
     project_metadata: Optional[dict] = None
 
     # Time stamps
